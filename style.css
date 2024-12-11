@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playball&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Redressed&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+:root {
+
+    /*-------------------font-family------------*/
+
+    --ff-primary: "Roboto", serif;
+    --ff-secondary: "Poppins", serif;
+    --ff-brand: "Playball", cursive;
+    --ff-design: "Great Vibes", serif;
+    --ff-redressed: "Redressed", serif;
+    --ff-inter: "Inter", serif;
+
+    /*--------------------colors------------------*/
+
+
+    --clr-primary: #0d6efd;
+    --clr-red: #dc3545;
+    --clr-success: #198754;
+    --clr-dark: #000;
+    --clr-white: #fff;
+    --clr-yellow: #ffc107;
+    --clr-pink: #d63384;
+    --clr-purple: #6f42c1;
+    --clr-gray2: #adb5bd;
+    --clr-gray: #dee2e6;
+    --clr-teal: #20c997;
+    --clr-orange: #fd7e14;
+    --clr-cyan: #0dcaf0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", serif;
+    overflow-x: hidden;
+    background: var(--clr-white);
+    font-weight: 500;
+}
+
+/*-----------------------Style Navbar-------------------*/
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+#header #navbar-spy {
+    box-shadow: 5px 5px 20px rgb(0, 0, 0, .5);
+}
+
+.navbar .navbar-brand {
+    font-weight: 800;
+    font-family: var(--ff-brand);
+    font-size: 40px;
+    padding-right: 20px;
+    color: rgb(250, 16, 215) !important;
+}
+
+#navabarNav a,
+a:hover {
+    text-decoration: none;
+}
+
+#navbarNav a {
+    color: var(--clr-dark);
+    border-bottom: 2px solid transparent;
+}
+
+#header .navbar-nav .nav-item .nav-link {
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#header .navbar-nav .nav-item .nav-link:hover,
+#header .navbar-nav .nav-item .nav-link:active {
+    color: rgb(250, 16, 215);
+}
+
+#header .d-flex {
+    padding: 10px 12px;
+}
+
+#header .d-flex input {
+    font-size: 20px;
+}
+
+#header .d-flex #butn {
+    font-size: 20px;
+    color: var(--clr-dark);
+    background-color: rgb(250, 16, 215);
+
+}
+
+#header .d-flex #butn:hover,
+#header .d-flex #butn:active {
+    
+    color: aqua;
+}
+
+#header .navbar-toggler {
+    width: unset;
+    height: unset;
+    background-color: #d63384;
+
+}
+
+#header .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/*-----------------------Home---------------------*/
+
+#Home #homey .carousel-inner .carousel-item img {
+    height: 100vh;
+    object-fit: cover;
+    position: 70% center;
+
+}
+
+#Home #homey .carousel-indicators {
+    padding-bottom: 150px;
+}
+
+#Home #homey .carousel-item #content {
+    padding-bottom: 260px;
+    padding-right: 1100px;
+    min-width: 1500px;
+    min-height: 600px;
+    overflow: hidden;
+
+}
+
+#Home #homey .carousel-item #content h1 {
+    font-size: 50px;
+    font-family: var(--ff-secondary);
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+#Home #homey .carousel-item #content p {
+    font-size: 70px;
+    font-family: var(--ff-design);
+    color: var(--clr-pink);
+    line-height: 70px;
+    padding-right: 80px;
+    font-weight: 500;
+    width: 500px;
+}
+
+#Home #homey .carousel-item #content a:hover {
+    color: #d63384;
+    background-color: aqua;
+}
+
+#Home #homey .carousel-item #content a {
+    font-size: 40px;
+    font-family: var(--ff-inter);
+    border-radius: 10px;
+}
+
+#Home #homey .carousel-item #content1 {
+    padding-bottom: 250px;
+    padding-right: 1000px;
+    min-width: 1500px;
+    overflow: hidden;
+    min-height: 500px;
+}
+
+#Home #homey .carousel-item #content1 p {
+    padding-bottom: 20px;
+    font-size: 50px;
+    font-family: var(--ff-inter);
+    color: darkslategrey;
+}
+
+#Home #homey .carousel-item #content1 h2 {
+    padding-bottom: 20px;
+    font-size: 50px;
+    font-family: var(--ff-secondary);
+    color: darkslategrey;
+    text-transform: uppercase;
+}
+
+#Home #homey .carousel-item #content2 {
+    padding-bottom: 300px;
+    padding-right: 600px;
+    min-width: 1500px;
+    min-height: 500px;
+    overflow: hidden;
+}
+
+#Home #homey .carousel-item #content2 h1 {
+    font-size: 60px;
+    color: #d63384;
+    font-weight: 400;
+    text-align: center;
+    font-family: var(--ff-brand);
+
+}
+
+#Home #homey .carousel-item #content2 p {
+    font-size: 45px;
+    padding-top: 30px;
+    font-family: var(--ff-inter);
+    width: 700px;
+    padding-left: 170px;
+    color: dimgray;
+}
+
+#Home .carousel-indicators button {
+    background-color: var(--clr-pink);
+    width: 45px;
+    gap: 10px;
+    height: 5px;
+}
+
+/*--------------------Category Style---------------*/
+
+#Category{
+    background-color: antiquewhite;
+}
+
+#Category .product-head {
+    color: var(--clr-dark);
+    font-size: 40px;
+    padding-bottom: 80px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    padding-top: 150px;
+}
+
+#Category .d-flex {
+    flex-direction: row;
+}
+
+#Category .d-inline-flex {
+    flex-direction: column;
+    justify-content: center;
+}
+
+#Category .d-inline-flex .content {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+
+}
+#Category .d-inline-flex .content h4{
+    font-size: 23px;
+}
+
+#Category .d-inline-flex .content h4 {
+    font-size: 30px;
+    font-family: var(--ff-inter);
+    color: #d63384;
+
+}
+
+#Category .d-inline-flex .content a {
+    font-size: 25px;
+    font-family: var(--ff-inter);
+    text-decoration: none;
+
+}
+
+#Category .d-inline-flex .content a:hover {
+    text-decoration: underline;
+    color: var(--clr-success);
+
+}
+
+#Category .d-inline-flex .content p {
+    font-size: 25px;
+    padding-top: 5px;
+}
+
+#Category .d-inline-flex .content .text {
+    color: dimgray;
+    font-size: 25px;
+}
+
+/*--------------------------- Gallery section------------------*/
+
+#Gallery{
+    padding-top:50px ;
+    padding-bottom: 70px;
+    background-color:antiquewhite;
+}
+#Gallery h1{
+    padding-bottom: 80px;
+    color: var(--clr-dark);
+    padding-top: 40px;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+/*----------------------------cart style-----------------------*/
+
+
+#Cart{
+    padding-top: 50px;
+    padding-bottom: 50px ;
+    background-color:antiquewhite;
+}
+#Cart h1{
+    padding-top: 100px;
+ padding-bottom: 80px;
+ font-size: 40px;
+ font-weight: 800;
+ letter-spacing: 2px;
+}
+#Cart .card h3{
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color:var(--clr-pink);
+    font-family: var(--ff-secondary);
+}
+
+#Cart .card {
+    border:none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,0.3),
+    inset 4px 4px 10px white;
+    border-radius: 20px !important;
+   overflow: hidden;
+   justify-content: center;
+   align-items: center;
+   transition: .2s;
+
+}
+#Cart .card p{
+    font-size: 20px;
+    color:dimgray;
+    padding-top: 10px !important;
+}
+#Cart .card a{
+   font-size: 25px;
+   font-weight: 700;
+}
+#Cart .card:hover{
+    box-shadow: inset 5px 5px 20px black,
+    inset -4px -4px 10px white;
+    transition: .2s;
+}
+#Cart .card a:hover,
+#Cart .card a:active{
+    background-color:var(--clr-pink);
+}
+
+
+/*-------------------- Contact Style ------------------*/
+
+
+footer{
+    background-color: rgb(3, 7, 56);
+    color:var(--clr-white);
+}
+footer .container .foot h4{
+ 
+    font-size: 30px;
+}
+footer .container .row .foot p a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+footer .container .row #foot3 i{
+
+    font-size: 20px;
+}
+footer .container .row .foot p a:hover{
+    text-decoration: underline;
+    color: #d63384 !important;
+}
+footer .container #follow .provider a{
+text-decoration: none;
+color: var(--clr-pink);
+font-size:15px;
+}
+
+footer .container .follow-us a{
+    font-size: 20px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

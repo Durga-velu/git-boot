@@ -1,0 +1,138 @@
+@media (max-width:1200px) {
+
+    /*--------------------- Home -------------------*/
+#Home .carousel-item #content1{
+ 
+  min-width:85%;
+  min-height: 100%;
+  text-align: center;
+  justify-content: center;
+
+}
+#Home .carousel-item #content2{
+    min-width: 85%;
+    min-height: 100%;
+    text-align: center;
+    padding-right:150px ;
+    justify-content: center;
+}
+#Home .carousel-caption{
+    background-position: absolute;
+   
+} 
+}
+@media (max-width:1000px){
+    #Home .carousel-item #content1{
+  min-width:90%;
+  min-height: 100%;
+  text-align: center;
+  justify-content: center;
+    }
+    #Home .carousel-item #content2{
+        min-width: 90%;
+        min-height: 100%;
+        text-align: center;
+        padding-right:150px ;
+        justify-content: center;
+}
+
+#Home .carousel-caption{
+    background-position: absolute;
+
+}
+}
+
+
+@media (max-width:767px){
+    #Home .carousel-item #content h1, p, a{
+        padding-top: 20px;
+        padding-right: 10px;
+      }
+    #Home .carousel-item #content1{
+  min-width:80%;
+  min-height: 100%;
+  text-align: center;
+  justify-content: center;
+    }
+    #Home .carousel-item #content2{
+        min-width: 100%;
+        min-height: 100%;
+        text-align: center;
+        padding-right:200px ;
+        justify-content: center;
+}
+
+#Home .carousel-item #content1 h2, p{
+    padding-top: 10px;
+    padding-right: 40px;
+  }
+#Home .carousel-caption{
+    background-position: absolute;
+}
+
+}
+@media (max-width:330px){
+    #Home .carousel-item #content h1, p, a{
+        padding-top: 20px;
+        padding-right: 10px;
+      }
+    #Home .carousel-item #content1{
+        min-width:70%;
+        min-height: 100%;
+        text-align: center;
+        justify-content: center;
+          }
+          #Home .carousel-item #content2{
+              min-width: 70%;
+              min-height: 100%;
+              padding-right:400px ;
+              justify-content: center;
+      }
+      
+      #Home .carousel-caption{
+          background-position: absolute;
+
+      }
+      #Home .carousel-item  a{
+        padding-bottom: 15px;
+        padding-right: 20px;
+      }    
+      #Home .carousel-item #content1{
+        padding-top: 20px;
+        padding-right: 10px;
+      }
+}
+
+@media(max-width:960px){
+
+#Category .container #cate3{
+
+ display: flex;
+ justify-content: center;
+ text-align: center;
+ align-items: center;
+ padding-left: 100px;
+
+}
+
+}
+@media(max-width:800px){
+
+#Category .container #cate3{
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
